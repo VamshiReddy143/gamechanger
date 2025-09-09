@@ -12,30 +12,16 @@ const api = axios.create({
   }
 });
 
-// Enhanced response interceptor
+// Remove the refresh token interceptor since we don't need it anymore
 api.interceptors.response.use(
   (response) => response,
   async (error) => {
-    const originalRequest = error.config;
-    
-    if (error.response?.status === 401 && !originalRequest._retry) {
-      originalRequest._retry = true;
-      
-      try {
-        // Attempt to refresh tokens
-        await api.post("/auth/refresh-token");
-        // Retry original request
-        return api(originalRequest);
-      } catch (refreshError) {
-        // Clear cookies and redirect on refresh failure
-        document.cookie = 'accessToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
-        document.cookie = 'refreshToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
-        localStorage.removeItem("user");
-        window.location.href = "/login";
-        return Promise.reject(refreshError);
-      }
+    if (error.response?.status === 401) {
+      // Clear token and redirect to login
+      document.cookie = 'token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+      localStorage.removeItem("user");
+      window.location.href = "/login";
     }
-    
     return Promise.reject(error);
   }
 );

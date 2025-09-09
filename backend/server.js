@@ -31,12 +31,24 @@ connectDB();
 
 // ====== Middleware ======
 app.use(helmet());
+
+
+// Update your CORS configuration
 app.use(cors({
-  origin: 'https://gamechanger-flame.vercel.app',
+  origin: [
+    'https://gamechanger-flame.vercel.app',
+    'http://localhost:5173'
+  ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'X-CSRF-Token']
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
+  exposedHeaders: ['Set-Cookie']
 }));
+
+// Handle preflight requests
+app.options('*', cors());
+
+
 app.use(morgan('dev'));
 app.use(compression());
 app.use(express.json());

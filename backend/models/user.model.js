@@ -18,7 +18,6 @@ const UserSchema = new mongoose.Schema({
 
 
 UserSchema.index({ email: 1 }, { unique: true });
-UserSchema.index({ refreshToken: 1 });
 UserSchema.index({ otpExpires: 1 }, { expireAfterSeconds: 0 });
 
 module.exports =  mongoose.model("User", UserSchema);

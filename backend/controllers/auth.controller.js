@@ -1,11 +1,8 @@
-
-const  userModel =require( "../models/user.model");
-const  bcrypt =require("bcrypt");
-const  jwt =require("jsonwebtoken");
-const  nodemailer = require("nodemailer");
-const Joi = require ("joi");
-
-
+const userModel = require("../models/user.model");
+const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
+const nodemailer = require("nodemailer");
+const Joi = require("joi");
 
 const userValidationSchema = Joi.object({
     name: Joi.string()
@@ -37,7 +34,7 @@ const userValidationSchema = Joi.object({
         .valid('coach', 'user')
         .default('user')
         .messages({
-            "string.valid": "Role must be either 'teacher' or 'user'",
+            "string.valid": "Role must be either 'coach' or 'user'",
             "string.base": "Role must be a string"
         })
 });
@@ -66,16 +63,10 @@ const otpSchema = Joi.object({
     otp: Joi.string().length(4).required()
 });
 
-// Token generator functions
-const generateAccessToken = (userId, role) => {
+// Single token generator function
+const generateToken = (userId, role) => {
     return jwt.sign({ id: userId, role }, process.env.JWT_SECRET, {
-        expiresIn: process.env.ACCESS_TOKEN_EXPIRES_IN || '15m'
-    });
-};
-
-const generateRefreshToken = (userId) => {
-    return jwt.sign({ id: userId }, process.env.REFRESH_TOKEN_SECRET, {
-        expiresIn: process.env.REFRESH_TOKEN_EXPIRES_IN || '7d'
+        expiresIn: process.env.JWT_EXPIRES_IN || '7d'
     });
 };
 
@@ -99,22 +90,17 @@ const generateOTP = () => {
     return Math.floor(1000 + Math.random() * 9000).toString();
 };
 
-// Cookie options for secure storage
-const getCookieOptions = (isRefresh = false) => ({
-  httpOnly: true,
-  secure: process.env.NODE_ENV === 'production',
-  sameSite: process.env.NODE_ENV === 'production' ? 'strict' : 'lax',
-  maxAge: isRefresh ? 7 * 24 * 60 * 60 * 1000 : 15 * 60 * 1000,
-  path: '/'
+// Cookie options
+const getCookieOptions = () => ({
+    httpOnly: true,
+    secure: process.env.NODE_ENV === 'production',
+    sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
+    maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
+    path: '/'
 });
 
+const cookieOptions = getCookieOptions();
 
-
-const accessTokenCookieOptions = getCookieOptions();
-const refreshTokenCookieOptions = {
-  ...getCookieOptions(),
-  maxAge: 7 * 24 * 60 * 60 * 1000 // 7 days
-};
 const REGISTER = async (req, res, next) => {
     const { error } = userValidationSchema.validate(req.body);
     if (error) {
@@ -136,17 +122,15 @@ const REGISTER = async (req, res, next) => {
         const otp = generateOTP();
         const hashedPassword = await bcrypt.hash(password, 12);
 
-        // Store user data temporarily with OTP
         const tempUser = await userModel.create({
             name,
             email,
             password: hashedPassword,
             role: role && ['coach', 'user'].includes(role) ? role : 'user',
             otp,
-            otpExpires: Date.now() + 10 * 60 * 1000 // OTP valid for 10 minutes
+            otpExpires: Date.now() + 10 * 60 * 1000
         });
 
-        // Send OTP email
         const mailOptions = {
             from: process.env.EMAIL_USER,
             to: email,
@@ -155,7 +139,6 @@ const REGISTER = async (req, res, next) => {
                 <h2>Verify Your Email</h2>
                 <p>Your OTP for registration is: <strong>${otp}</strong></p>
                 <p>This OTP will expire in 10 minutes.</p>
-                <p>If you didn't request this, please ignore this email.</p>
             `
         };
 
@@ -164,8 +147,7 @@ const REGISTER = async (req, res, next) => {
         res.status(200).json({
             message: "OTP sent to your email",
             success: true,
-            email: email,
-            tempUserId: tempUser._id
+            email: email
         });
 
     } catch (err) {
@@ -199,18 +181,14 @@ const VERIFY_OTP = async (req, res, next) => {
             });
         }
 
-        // Clear OTP and activate user
         user.otp = null;
         user.otpExpires = null;
         user.isVerified = true;
         await user.save();
 
-        const accessToken = generateAccessToken(user._id, user.role);
-        const refreshToken = generateRefreshToken(user._id);
+        const token = generateToken(user._id, user.role);
 
-        // Store tokens in cookies
-        res.cookie('accessToken', accessToken, accessTokenCookieOptions);
-        res.cookie('refreshToken', refreshToken, refreshTokenCookieOptions);
+        res.cookie('token', token, cookieOptions);
 
         res.status(201).json({
             message: "User registered successfully",
@@ -220,7 +198,8 @@ const VERIFY_OTP = async (req, res, next) => {
                 name: user.name,
                 email: user.email,
                 role: user.role
-            }
+            },
+            token: token // Also send token in response for client storage
         });
 
     } catch (err) {
@@ -249,7 +228,7 @@ const RESEND_OTP = async (req, res, next) => {
 
         const otp = generateOTP();
         user.otp = otp;
-        user.otpExpires = Date.now() + 10 * 60 * 1000; // 10 minutes
+        user.otpExpires = Date.now() + 10 * 60 * 1000;
         await user.save();
 
         const mailOptions = {
@@ -258,9 +237,8 @@ const RESEND_OTP = async (req, res, next) => {
             subject: 'Registration OTP Verification',
             html: `
                 <h2>Verify Your Email</h2>
-                <p>Your new OTP for registration is: <strong>${otp}</strong></p>
-                <p>This OTP will expire in 10 minutes.</p>
-                <p>If you didn't request this, please ignore this email.</p>
+                <p>Your new OTP is: <strong>${otp}</strong></p>
+                <p>Expires in 10 minutes.</p>
             `
         };
 
@@ -309,30 +287,10 @@ const LOGIN = async (req, res, next) => {
             });
         }
 
-        // Generate access and refresh tokens
-        const accessToken = generateAccessToken(user._id, user.role);
-        const refreshToken = generateRefreshToken(user._id);
+        const token = generateToken(user._id, user.role);
 
-        // Store the refresh token in DB for future validation / rotation
-        user.refreshToken = refreshToken;
-        await user.save();
+        res.cookie('token', token, cookieOptions);
 
-          res.cookie('accessToken', accessToken, {
-            httpOnly: true,
-            secure: process.env.NODE_ENV === 'production',
-            sameSite: process.env.NODE_ENV === 'production' ? 'strict' : 'lax',
-            maxAge: 15 * 60 * 1000
-        });
-
-
-          res.cookie('refreshToken', refreshToken, {
-            httpOnly: true,
-            secure: process.env.NODE_ENV === 'production',
-            sameSite: process.env.NODE_ENV === 'production' ? 'strict' : 'lax',
-            maxAge: 7 * 24 * 60 * 60 * 1000
-        });
-
-        // Respond with user details (excluding sensitive data)
         res.status(200).json({
             success: true,
             message: "Login successful",
@@ -341,7 +299,8 @@ const LOGIN = async (req, res, next) => {
                 name: user.name,
                 email: user.email,
                 role: user.role
-            }
+            },
+            token: token
         });
 
     } catch (err) {
@@ -352,137 +311,22 @@ const LOGIN = async (req, res, next) => {
 
 const LOGOUT = async (req, res, next) => {
     try {
-        const token = req.cookies.accessToken;
-        if (!token) {
-            return res.status(401).json({
-                success: false,
-                message: "No token provided"
-            });
-        }
-
-        try {
-            const decoded = jwt.verify(token, process.env.JWT_SECRET);
-            const userId = decoded.id;
-
-            const user = await userModel.findById(userId);
-            if (user) {
-                user.refreshToken = null;
-                await user.save();
-            }
-
-            // Clear cookies
-            res.clearCookie('accessToken', accessTokenCookieOptions);
-            res.clearCookie('refreshToken', refreshTokenCookieOptions);
-
-            return res.status(200).json({
-                success: true,
-                message: "Logged out successfully"
-            });
-        } catch (error) {
-            if (error.name === "JsonWebTokenError" || error.name === "TokenExpiredError") {
-                res.clearCookie('accessToken', accessTokenCookieOptions);
-                res.clearCookie('refreshToken', refreshTokenCookieOptions);
-                return res.status(401).json({
-                    success: false,
-                    message: "Invalid or expired token"
-                });
-            }
-            throw error;
-        }
-    } catch (err) {
-        err.statusCode = 500;
-        next(err);
-    }
-};
-
-
-
-
-const REFRESH_TOKEN = async (req, res, next) => {
-    try {
-        // Get refresh token from cookie
-        const refreshToken = req.cookies.refreshToken;
+        res.clearCookie('token', cookieOptions);
         
-        if (!refreshToken) {
-            return res.status(401).json({
-                success: false,
-                message: "No refresh token provided"
-            });
-        }
-
-        // Verify the refresh token
-        let decoded;
-        try {
-            decoded = jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET);
-        } catch (err) {
-            if (err.name === "TokenExpiredError") {
-                return res.status(401).json({
-                    success: false,
-                    message: "Refresh token expired"
-                });
-            }
-            return res.status(401).json({
-                success: false,
-                message: "Invalid refresh token"
-            });
-        }
-
-        // Fetch user from database
-        const user = await userModel.findById(decoded.id);
-        if (!user) {
-            return res.status(404).json({
-                success: false,
-                message: "User not found"
-            });
-        }
-
-        // Verify the stored refresh token matches
-        if (user.refreshToken !== refreshToken) {
-            return res.status(401).json({
-                success: false,
-                message: "Refresh token mismatch"
-            });
-        }
-
-        // Generate new tokens
-        const newAccessToken = generateAccessToken(user._id, user.role);
-        const newRefreshToken = generateRefreshToken(user._id);
-
-        // Update refresh token in database
-        user.refreshToken = newRefreshToken;
-        await user.save();
-
-        // Set cookies
-        res.cookie('accessToken', newAccessToken, {
-            httpOnly: true,
-            secure: process.env.NODE_ENV === 'production',
-            sameSite: process.env.NODE_ENV === 'production' ? 'strict' : 'lax',
-            maxAge: 15 * 60 * 1000 // 15 minutes
-        });
-
-        res.cookie('refreshToken', newRefreshToken, {
-            httpOnly: true,
-            secure: process.env.NODE_ENV === 'production',
-            sameSite: process.env.NODE_ENV === 'production' ? 'strict' : 'lax',
-            maxAge: 7 * 24 * 60 * 60 * 1000 // 7 days
-        });
-
-        res.status(200).json({
+        return res.status(200).json({
             success: true,
-            message: "Tokens refreshed successfully"
+            message: "Logged out successfully"
         });
-
     } catch (err) {
         err.statusCode = 500;
         next(err);
     }
 };
-
-
 
 const ME = async (req, res, next) => {
     try {
-        const token = req.cookies.accessToken;
+        const token = req.cookies.token;
+        
         if (!token) {
             return res.status(401).json({
                 success: false,
@@ -512,8 +356,7 @@ const ME = async (req, res, next) => {
         });
     } catch (err) {
         if (err.name === "JsonWebTokenError" || err.name === "TokenExpiredError") {
-            res.clearCookie('accessToken', accessTokenCookieOptions);
-            res.clearCookie('refreshToken', refreshTokenCookieOptions);
+            res.clearCookie('token', cookieOptions);
             return res.status(401).json({
                 success: false,
                 message: "Invalid or expired token"
@@ -551,10 +394,9 @@ const FORGOT_PASSWORD = async (req, res, next) => {
             subject: 'Password Reset Request',
             html: `
                 <h2>Password Reset</h2>
-                <p>You requested a password reset. Click the link below to reset your password:</p>
+                <p>Click the link to reset your password:</p>
                 <a href="${resetLink}">Reset Password</a>
-                <p>This link will expire in 1 hour.</p>
-                <p>If you didn't request this, please ignore this email.</p>
+                <p>This link expires in 1 hour.</p>
             `
         };
 
@@ -594,12 +436,9 @@ const RESET_PASSWORD = async (req, res, next) => {
 
         const hashedPassword = await bcrypt.hash(password, 12);
         user.password = hashedPassword;
-        user.refreshToken = null;
         await user.save();
 
-        // Clear cookies on password reset
-        res.clearCookie('accessToken', accessTokenCookieOptions);
-        res.clearCookie('refreshToken', refreshTokenCookieOptions);
+        res.clearCookie('token', cookieOptions);
 
         res.status(200).json({
             success: true,
@@ -617,4 +456,16 @@ const RESET_PASSWORD = async (req, res, next) => {
     }
 };
 
-module.exports =  { REGISTER, LOGIN, LOGOUT, ME, FORGOT_PASSWORD, RESET_PASSWORD, VERIFY_OTP, RESEND_OTP,REFRESH_TOKEN };
+// Remove REFRESH_TOKEN function entirely
+
+module.exports = { 
+    REGISTER, 
+    LOGIN, 
+    LOGOUT, 
+    ME, 
+    FORGOT_PASSWORD, 
+    RESET_PASSWORD, 
+    VERIFY_OTP, 
+    RESEND_OTP 
+    // REMOVED: REFRESH_TOKEN
+};
