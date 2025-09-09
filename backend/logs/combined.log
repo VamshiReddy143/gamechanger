@@ -1,0 +1,1201 @@
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T10:36:47.440Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 8000","timestamp":"2025-08-13T10:36:47.588Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T10:37:23.576Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 8000","timestamp":"2025-08-13T10:37:23.668Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T10:37:49.116Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 8000","timestamp":"2025-08-13T10:37:49.268Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T10:38:00.382Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 8000","timestamp":"2025-08-13T10:38:00.583Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T10:38:05.686Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 8000","timestamp":"2025-08-13T10:38:05.762Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T10:38:13.472Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 8000","timestamp":"2025-08-13T10:38:13.554Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T10:39:45.640Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 8000","timestamp":"2025-08-13T10:39:45.786Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T10:41:19.173Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 8000","timestamp":"2025-08-13T10:41:19.342Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T10:41:54.855Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 8000","timestamp":"2025-08-13T10:41:55.104Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T10:48:14.401Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T10:48:15.014Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T10:49:54.610Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T10:49:55.195Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T10:51:09.337Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T10:51:09.723Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T10:51:40.193Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T10:51:40.609Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T10:54:54.795Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T10:54:55.409Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T10:55:15.943Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T10:55:16.372Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:12:09.591Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:12:11.758Z"}
+{"level":"error","message":"cb is not a function","method":"GET","params":{},"path":"/api/teams","query":{"search":""},"stack":"TypeError: cb is not a function\n    at Object.increment (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\utils\\rateLimitStore.js:13:14)\n    at C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\express-rate-limit\\dist\\index.cjs:770:52\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\express-rate-limit\\dist\\index.cjs:747:5","timestamp":"2025-08-13T11:12:15.713Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:13:41.036Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:13:41.659Z"}
+{"level":"error","message":"cb is not a function","method":"GET","params":{},"path":"/api/teams","query":{"search":""},"stack":"TypeError: cb is not a function\n    at Object.increment (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\utils\\rateLimitStore.js:13:14)\n    at C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\express-rate-limit\\dist\\index.cjs:770:52\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\express-rate-limit\\dist\\index.cjs:747:5","timestamp":"2025-08-13T11:13:57.426Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:15:15.628Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:15:16.674Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'get')","method":"GET","params":{},"path":"/api/teams","query":{"search":""},"stack":"TypeError: Cannot read properties of undefined (reading 'get')\n    at Object.increment (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\utils\\rateLimitStore.js:7:42)\n    at C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\express-rate-limit\\dist\\index.cjs:770:52\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\express-rate-limit\\dist\\index.cjs:747:5","timestamp":"2025-08-13T11:15:18.620Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:16:41.997Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:16:42.883Z"}
+{"error":"Cannot read properties of undefined (reading 'organization')","level":"error","message":"Failed to fetch teams","query":{"search":""},"stack":"TypeError: Cannot read properties of undefined (reading 'organization')\n    at getTeams (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\controllers\\createTeam.controller.js:87:48)\n    at Layer.handleRequest (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:186:3)","timestamp":"2025-08-13T11:16:44.797Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'organization')","method":"GET","params":{},"path":"/api/teams","query":{"search":""},"stack":"TypeError: Cannot read properties of undefined (reading 'organization')\n    at getTeams (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\controllers\\createTeam.controller.js:87:48)\n    at Layer.handleRequest (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:186:3)","timestamp":"2025-08-13T11:16:44.800Z"}
+{"level":"error","message":"Uncaught Exception: stream.write is not a function","stack":"TypeError: stream.write is not a function\n    at Array.logRequest (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\morgan\\index.js:130:14)\n    at listener (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\morgan\\node_modules\\on-finished\\index.js:169:15)\n    at onFinish (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\morgan\\node_modules\\on-finished\\index.js:100:5)\n    at callback (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\ee-first\\index.js:55:10)\n    at ServerResponse.onevent (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\ee-first\\index.js:93:5)\n    at ServerResponse.emit (node:events:530:35)\n    at onFinish (node:_http_outgoing:1082:10)\n    at afterWrite (node:internal/streams/writable:710:5)\n    at afterWriteTick (node:internal/streams/writable:696:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)","timestamp":"2025-08-13T11:16:44.834Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:18:30.627Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:18:31.953Z"}
+{"error":"Cannot read properties of undefined (reading 'organization')","level":"error","message":"Failed to fetch teams","query":{"search":""},"stack":"TypeError: Cannot read properties of undefined (reading 'organization')\n    at getTeams (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\controllers\\createTeam.controller.js:87:48)\n    at Layer.handleRequest (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:186:3)","timestamp":"2025-08-13T11:18:37.170Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'organization')","method":"GET","params":{},"path":"/api/teams","query":{"search":""},"stack":"TypeError: Cannot read properties of undefined (reading 'organization')\n    at getTeams (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\controllers\\createTeam.controller.js:87:48)\n    at Layer.handleRequest (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:186:3)","timestamp":"2025-08-13T11:18:37.174Z"}
+{"level":"error","message":"Uncaught Exception: stream.write is not a function","stack":"TypeError: stream.write is not a function\n    at Array.logRequest (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\morgan\\index.js:130:14)\n    at listener (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\morgan\\node_modules\\on-finished\\index.js:169:15)\n    at onFinish (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\morgan\\node_modules\\on-finished\\index.js:100:5)\n    at callback (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\ee-first\\index.js:55:10)\n    at ServerResponse.onevent (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\ee-first\\index.js:93:5)\n    at ServerResponse.emit (node:events:530:35)\n    at onFinish (node:_http_outgoing:1082:10)\n    at afterWrite (node:internal/streams/writable:710:5)\n    at afterWriteTick (node:internal/streams/writable:696:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)","timestamp":"2025-08-13T11:18:37.201Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:19:15.419Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:19:16.018Z"}
+{"error":"query is not defined","level":"error","message":"Failed to fetch teams","query":{"search":""},"stack":"ReferenceError: query is not defined\n    at getTeams (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\controllers\\createTeam.controller.js:96:39)\n    at Layer.handleRequest (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:186:3)","timestamp":"2025-08-13T11:19:16.376Z"}
+{"level":"error","message":"query is not defined","method":"GET","params":{},"path":"/api/teams","query":{"search":""},"stack":"ReferenceError: query is not defined\n    at getTeams (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\controllers\\createTeam.controller.js:96:39)\n    at Layer.handleRequest (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:186:3)","timestamp":"2025-08-13T11:19:16.378Z"}
+{"level":"error","message":"Uncaught Exception: stream.write is not a function","stack":"TypeError: stream.write is not a function\n    at Array.logRequest (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\morgan\\index.js:130:14)\n    at listener (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\morgan\\node_modules\\on-finished\\index.js:169:15)\n    at onFinish (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\morgan\\node_modules\\on-finished\\index.js:100:5)\n    at callback (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\ee-first\\index.js:55:10)\n    at ServerResponse.onevent (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\ee-first\\index.js:93:5)\n    at ServerResponse.emit (node:events:530:35)\n    at onFinish (node:_http_outgoing:1082:10)\n    at afterWrite (node:internal/streams/writable:710:5)\n    at afterWriteTick (node:internal/streams/writable:696:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)","timestamp":"2025-08-13T11:19:16.397Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:19:54.546Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:19:55.473Z"}
+{"level":"error","message":"Uncaught Exception: stream.write is not a function","stack":"TypeError: stream.write is not a function\n    at Array.logRequest (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\morgan\\index.js:130:14)\n    at listener (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\morgan\\node_modules\\on-finished\\index.js:169:15)\n    at onFinish (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\morgan\\node_modules\\on-finished\\index.js:100:5)\n    at callback (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\ee-first\\index.js:55:10)\n    at ServerResponse.onevent (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\ee-first\\index.js:93:5)\n    at ServerResponse.emit (node:events:530:35)\n    at onFinish (node:_http_outgoing:1082:10)\n    at callback (node:internal/streams/writable:766:21)\n    at afterWrite (node:internal/streams/writable:710:5)\n    at afterWriteTick (node:internal/streams/writable:696:10)","timestamp":"2025-08-13T11:19:55.917Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:23:40.990Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:23:42.061Z"}
+{"level":"error","message":"Uncaught Exception: stream.write is not a function","stack":"TypeError: stream.write is not a function\n    at Array.logRequest (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\morgan\\index.js:130:14)\n    at listener (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\morgan\\node_modules\\on-finished\\index.js:169:15)\n    at onFinish (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\morgan\\node_modules\\on-finished\\index.js:100:5)\n    at callback (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\ee-first\\index.js:55:10)\n    at ServerResponse.onevent (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\ee-first\\index.js:93:5)\n    at ServerResponse.emit (node:events:530:35)\n    at onFinish (node:_http_outgoing:1082:10)\n    at callback (node:internal/streams/writable:766:21)\n    at afterWrite (node:internal/streams/writable:710:5)\n    at afterWriteTick (node:internal/streams/writable:696:10)","timestamp":"2025-08-13T11:23:43.406Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:24:40.387Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:24:40.662Z"}
+{"level":"error","message":"Route /favicon.ico not found","method":"GET","params":{},"path":"/favicon.ico","query":{},"stack":"APIError: Route /favicon.ico not found\n    at C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\server.js:197:8\n    at Layer.handleRequest (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\router\\index.js:291:5)\n    at module.exports (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\middleware\\sanitizeInput.js:11:3)","timestamp":"2025-08-13T11:24:44.665Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:25:13.469Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:25:13.791Z"}
+{"body":{"ageGroup":"Between 13-18","location":"hyderabad","season":"Fall 2025","sport":"Softball","teamName":"lions","teamType":"Local League / Rec / Other"},"error":"Cannot read properties of undefined (reading 'id')","level":"error","message":"Team creation failed","stack":"TypeError: Cannot read properties of undefined (reading 'id')\n    at createTeam (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\controllers\\createTeam.controller.js:39:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-13T11:26:32.210Z"}
+{"body":{"ageGroup":"Between 13-18","location":"hyderabad","season":"Fall 2025","sport":"Softball","teamName":"lions","teamType":"Local League / Rec / Other"},"level":"error","message":"Cannot read properties of undefined (reading 'id')","method":"POST","params":{},"path":"/api/teams/create","query":{},"stack":"TypeError: Cannot read properties of undefined (reading 'id')\n    at createTeam (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\controllers\\createTeam.controller.js:39:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-13T11:26:32.211Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:28:26.012Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:28:26.619Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:28:55.442Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:28:56.301Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:30:55.313Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:30:56.357Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:36:15.536Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:36:16.233Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:38:08.056Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:38:08.975Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:39:35.979Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:39:37.139Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:40:34.729Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:40:35.404Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:43:10.431Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:43:11.791Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:46:56.615Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:46:57.287Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:47:11.061Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:47:11.887Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:47:51.233Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:47:51.768Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:47:59.308Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:47:59.904Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:48:21.851Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:48:22.442Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:50:14.189Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:50:15.235Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:51:23.370Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:51:23.896Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:56:49.505Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:56:50.151Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T11:58:18.915Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T11:58:19.828Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T12:03:06.271Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T12:03:08.026Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T12:03:32.744Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T12:03:34.148Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T12:07:08.926Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T12:07:09.943Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T12:08:09.742Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T12:08:10.421Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T12:08:29.631Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T12:08:30.412Z"}
+{"level":"warn","message":"⚠️ Received SIGINT","timestamp":"2025-08-13T12:12:10.477Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T12:12:19.560Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T12:12:20.007Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T12:17:38.264Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T12:17:38.858Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T12:18:07.521Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T12:18:08.818Z"}
+{"body":{"ageGroup":"Over 18","location":"wkjfnk","season":"Winter 2025-26","sport":"Softball","teamName":"rfrfwe","teamType":"Local League / Rec / Other"},"error":"CreateTeam validation failed: teamname: Path `teamname` is required., agegroup: Path `agegroup` is required., teamtype: Path `teamtype` is required.","level":"error","message":"Team creation failed","stack":"ValidationError: CreateTeam validation failed: teamname: Path `teamname` is required., agegroup: Path `agegroup` is required., teamtype: Path `teamtype` is required.\n    at Document.invalidate (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\mongoose\\lib\\document.js:3358:32)\n    at C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\mongoose\\lib\\document.js:3119:17\n    at C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\mongoose\\lib\\schemaType.js:1410:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-08-13T12:18:41.009Z"}
+{"body":{"ageGroup":"Over 18","location":"wkjfnk","season":"Winter 2025-26","sport":"Softball","teamName":"rfrfwe","teamType":"Local League / Rec / Other"},"level":"error","message":"CreateTeam validation failed: teamname: Path `teamname` is required., agegroup: Path `agegroup` is required., teamtype: Path `teamtype` is required.","method":"POST","params":{},"path":"/api/teams/create","query":{},"stack":"ValidationError: CreateTeam validation failed: teamname: Path `teamname` is required., agegroup: Path `agegroup` is required., teamtype: Path `teamtype` is required.\n    at Document.invalidate (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\mongoose\\lib\\document.js:3358:32)\n    at C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\mongoose\\lib\\document.js:3119:17\n    at C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\mongoose\\lib\\schemaType.js:1410:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-08-13T12:18:41.011Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T12:21:19.831Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T12:21:20.479Z"}
+{"level":"info","message":"Team created: lions","teamId":"689c83622265fbf09923c332","timestamp":"2025-08-13T12:21:54.046Z","userId":"689c779e61eef27bed4b910c"}
+{"body":{"ageGroup":"Over 18","location":"hyderabad","season":"Fall 2025","sport":"Softball","teamName":"lions","teamType":"School"},"error":"metrics.histogram is not a function","level":"error","message":"Team creation failed","stack":"TypeError: metrics.histogram is not a function\n    at createTeam (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\controllers\\createTeam.controller.js:53:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-13T12:21:54.047Z"}
+{"body":{"ageGroup":"Over 18","location":"hyderabad","season":"Fall 2025","sport":"Softball","teamName":"lions","teamType":"School"},"level":"error","message":"metrics.histogram is not a function","method":"POST","params":{},"path":"/api/teams/create","query":{},"stack":"TypeError: metrics.histogram is not a function\n    at createTeam (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\controllers\\createTeam.controller.js:53:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-13T12:21:54.048Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T12:26:15.788Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T12:26:16.528Z"}
+{"level":"info","message":"Team created: peacock","teamId":"689c848daee10354e205b649","timestamp":"2025-08-13T12:26:53.476Z","userId":"689c779e61eef27bed4b910c"}
+{"body":{"ageGroup":"Between 13-18","location":"yyyy","season":"Summer 2025","sport":"Softball","teamName":"peacock","teamType":"Select / Travel"},"error":"Invalid number of arguments (1): \"team.create.time\" for label names (3): \"method, route, status_code\".","level":"error","message":"Team creation failed","stack":"Error: Invalid number of arguments (1): \"team.create.time\" for label names (3): \"method, route, status_code\".\n    at exports.getLabels (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\prom-client\\lib\\util.js:56:9)\n    at Histogram.labels (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\prom-client\\lib\\histogram.js:164:18)\n    at createTeam (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\controllers\\createTeam.controller.js:54:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-13T12:26:53.477Z"}
+{"body":{"ageGroup":"Between 13-18","location":"yyyy","season":"Summer 2025","sport":"Softball","teamName":"peacock","teamType":"Select / Travel"},"level":"error","message":"Invalid number of arguments (1): \"team.create.time\" for label names (3): \"method, route, status_code\".","method":"POST","params":{},"path":"/api/teams/create","query":{},"stack":"Error: Invalid number of arguments (1): \"team.create.time\" for label names (3): \"method, route, status_code\".\n    at exports.getLabels (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\prom-client\\lib\\util.js:56:9)\n    at Histogram.labels (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\node_modules\\prom-client\\lib\\histogram.js:164:18)\n    at createTeam (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\controllers\\createTeam.controller.js:54:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-13T12:26:53.479Z"}
+{"body":{"ageGroup":"Between 13-18","location":"yyyy","season":"Summer 2025","sport":"Softball","teamName":"peacock","teamType":"Select / Travel"},"error":"logger is not defined","level":"error","message":"Team creation failed","stack":"ReferenceError: logger is not defined\n    at new APIError (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\utils\\apiError.js:27:7)\n    at createTeam (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\controllers\\createTeam.controller.js:28:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-13T12:26:55.567Z"}
+{"body":{"ageGroup":"Between 13-18","location":"yyyy","season":"Summer 2025","sport":"Softball","teamName":"peacock","teamType":"Select / Travel"},"level":"error","message":"logger is not defined","method":"POST","params":{},"path":"/api/teams/create","query":{},"stack":"ReferenceError: logger is not defined\n    at new APIError (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\utils\\apiError.js:27:7)\n    at createTeam (C:\\Users\\eagle\\OneDrive\\Desktop\\gc\\backend\\controllers\\createTeam.controller.js:28:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-13T12:26:55.568Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T12:28:00.678Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T12:28:01.867Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T12:28:25.470Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T12:28:26.253Z"}
+{"level":"info","message":"Team created: sdfvds","teamId":"689c8524e04c6c28ffd413b2","timestamp":"2025-08-13T12:29:24.511Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team created: hhhhh","teamId":"689c85e6e04c6c28ffd413bc","timestamp":"2025-08-13T12:32:38.891Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T12:41:52.376Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T12:41:52.710Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-13T13:41:47.689Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-13T13:41:49.282Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-14T03:22:29.320Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-14T03:22:30.101Z"}
+{"level":"info","message":"Team created: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T03:26:14.352Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-14T07:30:39.522Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-14T07:30:40.079Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-14T08:36:47.834Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-14T08:36:48.290Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-14T08:58:04.441Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-14T08:58:04.692Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-14T08:58:14.968Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-14T08:58:15.243Z"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T08:59:34.990Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T08:59:35.099Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:00:20.809Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:00:20.927Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:02:35.611Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:02:35.677Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:02:35.925Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:02:35.981Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:02:37.950Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:02:38.026Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:02:50.012Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:02:50.105Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:03:16.572Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:03:16.663Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:03:16.753Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:03:16.811Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:03:17.420Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:03:17.547Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:03:20.128Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:03:20.196Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:03:27.154Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:03:27.216Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:04:01.629Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:04:01.679Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-14T09:05:55.276Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-14T09:05:55.525Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-14T09:05:59.101Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-14T09:05:59.476Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-14T09:06:14.561Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-14T09:06:14.812Z"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:06:49.969Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:06:50.095Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:18:06.441Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:18:06.529Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:18:13.457Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:18:13.575Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:19:11.241Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:19:11.318Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:19:16.071Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:19:16.270Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:19:35.725Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:19:35.806Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:19:52.450Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:19:52.743Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:21:44.652Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-14T09:21:44.733Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team created: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-14T09:22:56.627Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-14T09:22:58.635Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-14T09:22:58.753Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team created: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-14T09:34:11.230Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-14T09:34:15.531Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-14T09:34:15.631Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"warn","message":"⚠️ Received SIGINT","timestamp":"2025-08-14T09:37:11.492Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-14T09:37:38.159Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-14T09:37:38.423Z"}
+{"level":"warn","message":"⚠️ Received SIGINT","timestamp":"2025-08-14T10:20:23.250Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T06:12:19.792Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T06:12:20.530Z"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T06:12:38.331Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T06:12:38.553Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T06:24:12.362Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T06:24:12.497Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T06:39:12.808Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T06:39:12.921Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T06:44:10.703Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T06:44:10.808Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T06:44:26.168Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T06:44:26.261Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T06:48:31.613Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T06:48:31.846Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T06:53:19.639Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T06:53:19.761Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T06:54:31.896Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T06:54:32.010Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T06:58:02.307Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T06:58:02.409Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T07:26:20.695Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T07:26:20.803Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T07:30:31.239Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T07:30:31.371Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T07:32:45.214Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T07:32:45.286Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T07:39:03.763Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T07:39:03.861Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T07:45:08.521Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T07:45:08.680Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T08:44:12.432Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T08:44:13.339Z"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T08:44:45.272Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T08:44:45.358Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T08:45:04.385Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T08:45:04.475Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T08:50:36.899Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T08:50:36.967Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T08:51:13.535Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T08:51:13.632Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T10:16:49.589Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T10:16:49.680Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T10:20:06.582Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T10:20:06.995Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T10:20:11.706Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T10:20:12.047Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T10:20:30.897Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T10:20:31.415Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T10:20:33.806Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T10:20:34.234Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T10:20:52.771Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T10:20:53.086Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T10:21:02.560Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T10:21:03.011Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T10:21:20.967Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T10:21:21.554Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T10:21:26.123Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T10:21:26.489Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T10:21:43.998Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T10:21:44.307Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T10:21:47.992Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T10:21:48.341Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T10:22:15.523Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T10:22:15.999Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T10:22:20.057Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T10:22:20.348Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T11:02:08.872Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T11:02:09.191Z"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:09:20.045Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:09:20.159Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:10:05.172Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:10:05.272Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:11:09.917Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:11:09.993Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:11:10.676Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:11:10.766Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:11:15.938Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:11:16.037Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:11:24.230Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:11:24.316Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:15:09.377Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:15:09.488Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T11:26:40.656Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T11:26:41.070Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T11:26:43.145Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T11:26:43.482Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T11:26:53.120Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T11:26:53.436Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T11:26:55.866Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T11:26:56.753Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T11:27:03.714Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T11:27:04.012Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T11:27:09.706Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T11:27:10.349Z"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:27:35.387Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:27:35.542Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:27:43.855Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:27:44.259Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:29:51.372Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:29:51.493Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:29:56.267Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:29:56.377Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"warn","message":"⚠️ Received SIGINT","timestamp":"2025-08-15T11:30:45.605Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T11:30:53.430Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T11:30:54.040Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T11:32:34.234Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T11:32:34.633Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T11:33:07.819Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T11:33:08.285Z"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:33:09.745Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:33:09.892Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:35:34.665Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:35:34.818Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:38:00.022Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:38:00.125Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:38:32.044Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:38:32.250Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:40:57.889Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:40:57.994Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:41:30.075Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:41:30.373Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:41:58.025Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T11:42:23.256Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:44:42.923Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:44:43.035Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:44:49.137Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:44:49.433Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:48:50.780Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:50:38.393Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:50:38.537Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:50:38.788Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:50:38.908Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:53:15.477Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:53:59.092Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:54:27.048Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:54:32.019Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:54:34.742Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:54:35.750Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:54:54.031Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:54:57.754Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:54:58.640Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:55:33.199Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:55:38.149Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:55:48.047Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:56:05.355Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:56:11.819Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:56:28.154Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:56:38.332Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:56:48.669Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:56:50.103Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:56:51.837Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:56:57.200Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:57:12.232Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:57:15.769Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:57:17.898Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:57:23.883Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T11:57:23.987Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:02:01.264Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:02:01.465Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:02:42.979Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:02:43.089Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:02:46.730Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:02:46.851Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:02:48.758Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:02:48.837Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:03:14.908Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:03:15.031Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:03:17.520Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:03:18.814Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:04:34.099Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:04:34.184Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:04:44.327Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:04:44.412Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:04:49.015Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:04:49.125Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:04:56.468Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:05:03.883Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:05:04.056Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:05:07.624Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:05:07.747Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:25:35.912Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:25:36.041Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:28:23.764Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:28:23.822Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:28:24.659Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:28:24.714Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:28:30.799Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:28:36.677Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:28:43.338Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:29:04.740Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:29:04.825Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:29:07.492Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:29:19.289Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:29:26.346Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:29:28.260Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:29:30.238Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:29:34.192Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:29:37.074Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:29:54.092Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:30:00.854Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:30:21.538Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:30:36.394Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:30:54.952Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:30:55.029Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:31:41.163Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:31:41.312Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:32:53.417Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:32:53.536Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:36:48.698Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T12:36:48.764Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:00:44.794Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:00:44.882Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:06.907Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:06.970Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:07.698Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:07.782Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:13.113Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:13.213Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:14.318Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:14.446Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:15.056Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:15.150Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:15.982Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:16.054Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:34.946Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:35.041Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:35.319Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:35.412Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:36.529Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:36.653Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:45.746Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:45.817Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:46.383Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:46.475Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:52.239Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:01:52.347Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:02:23.986Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:02:24.069Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:03:02.792Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:03:02.856Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:04:40.844Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:04:40.891Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:06:00.967Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:06:01.065Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:06:21.768Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:06:21.852Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:08:36.921Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:08:36.990Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:08:42.551Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:08:42.651Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:08:43.187Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:08:43.600Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:08:43.681Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:09:30.477Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:09:30.577Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:09:34.430Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:09:34.508Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:11:21.825Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:11:21.920Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:12:17.491Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:12:17.588Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:45:20.471Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:45:20.656Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:50:07.070Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:50:07.212Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:53:07.157Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:53:07.283Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:55:29.022Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T13:55:29.113Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T14:01:29.589Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T14:01:29.696Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T14:01:46.774Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T14:01:46.862Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T14:03:08.682Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T14:03:08.746Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T14:03:45.000Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T14:03:45.081Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T14:07:41.339Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T14:07:41.476Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T14:11:56.319Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T14:11:56.720Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T18:14:51.291Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T18:14:51.994Z"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T18:15:39.082Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T18:15:39.205Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T18:26:58.617Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T18:26:58.698Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T18:35:52.363Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T18:35:52.481Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T18:36:02.543Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T18:36:03.423Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T18:39:55.062Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T18:39:55.564Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T18:40:53.953Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T18:40:54.084Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T18:41:57.060Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T18:41:57.280Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T18:42:47.190Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T18:42:47.815Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T18:45:38.676Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-15T18:45:38.843Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T18:51:48.587Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T18:51:48.648Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T18:52:31.717Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T18:52:31.799Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T18:54:43.897Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T18:54:44.910Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T18:55:05.130Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T18:55:05.923Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T18:55:14.931Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T18:55:15.579Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T18:55:40.027Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T18:55:40.615Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T18:55:45.295Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T18:55:45.872Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T18:56:36.508Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T18:56:37.191Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T18:57:01.071Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T18:57:01.459Z"}
+{"level":"info","message":"WebSocket service initialized","timestamp":"2025-08-15T18:57:55.829Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T18:57:56.456Z"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T18:58:07.015Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T18:58:07.483Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-15T19:02:37.436Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-15T19:02:37.549Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T19:03:09.479Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T19:03:09.565Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T19:07:51.783Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T19:07:51.898Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T19:08:40.739Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T19:08:40.869Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T19:09:02.231Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T19:09:02.354Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T19:26:58.390Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T19:26:58.473Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-15T19:55:01.100Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T19:55:01.754Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-15T19:55:01.755Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-15T19:55:01.847Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-15T19:55:01.854Z"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T19:58:30.259Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T19:58:30.288Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:03:50.474Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:03:50.505Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:06:06.641Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:06:06.806Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:08:14.512Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:08:14.654Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"warn","message":"⚠️ Received SIGINT","timestamp":"2025-08-15T20:08:27.758Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-15T20:08:41.196Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T20:08:42.748Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-15T20:08:42.749Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-15T20:08:42.986Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-15T20:08:43.007Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-15T20:10:31.569Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T20:10:34.468Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-15T20:10:34.521Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-15T20:10:35.030Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-15T20:10:35.184Z"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:12:43.204Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:12:43.318Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:03.509Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:03.605Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:23.206Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:23.367Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:24.414Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:24.460Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:35.032Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:35.140Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:36.273Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:36.370Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:39.954Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:39.999Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:41.288Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:41.347Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:42.262Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:42.325Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:42.678Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:42.773Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:52.354Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:52.439Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:56.856Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:18:56.891Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:02.597Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:02.657Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:02.911Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:03.119Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:04.059Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:04.247Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:08.101Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:08.147Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:12.171Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:12.320Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:12.523Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:12.628Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:16.331Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:16.410Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:17.451Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:17.551Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:17.828Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:17.952Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:19.738Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:19.904Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:21.755Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:21.951Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:22.269Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:22.356Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:23.438Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:23.494Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:35.415Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:35.564Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:36.076Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:36.274Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:37.037Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:37.081Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:40.039Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:40.098Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:40.376Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:40.417Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:41.197Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:41.259Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:46.344Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:46.515Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:47.346Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:47.438Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:50.502Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:50.580Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:50.995Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:51.034Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:51.845Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:51.946Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:54.152Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:54.198Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:54.473Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:54.512Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:55.084Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:55.190Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:56.962Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:57.003Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:57.369Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:57.415Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:57.999Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:19:58.072Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:20:03.116Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:20:03.390Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:20:03.714Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:20:03.824Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:20:08.104Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:20:08.146Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:20:37.405Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:20:37.510Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:20:37.913Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:20:38.020Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:20:42.474Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:20:42.508Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:20:43.241Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:20:43.276Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:23:15.919Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:23:16.019Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:23:21.554Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-15T20:23:21.656Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-15T20:30:16.260Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-15T20:30:16.621Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-15T20:30:16.621Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-15T20:30:16.689Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-15T20:30:16.694Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-16T09:34:46.779Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-16T09:34:47.467Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-16T09:34:47.468Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-16T09:34:47.533Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-16T09:34:47.538Z"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-16T09:35:12.716Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-16T09:35:12.779Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-16T09:35:17.569Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-16T09:35:17.669Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-16T09:44:01.745Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-16T09:44:11.926Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-16T09:53:52.132Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-16T09:53:52.226Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-16T09:55:48.517Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-16T09:55:48.735Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-16T10:12:38.871Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-16T10:12:38.972Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-16T10:19:29.968Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-16T10:19:30.045Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-16T10:48:42.202Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-16T10:48:42.307Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-16T10:48:56.399Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-16T10:48:56.660Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-16T10:49:48.187Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-16T10:49:49.575Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-16T10:49:49.577Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-16T10:49:49.765Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-16T10:49:49.779Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-16T10:50:06.823Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-16T10:50:07.991Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-16T10:50:07.993Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-16T10:50:08.192Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-16T10:50:08.209Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-16T10:50:49.681Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-16T10:50:50.931Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-16T10:50:50.932Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-16T10:50:51.118Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-16T10:50:51.139Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-16T10:51:24.230Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-16T10:51:25.203Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-16T10:51:25.204Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-16T10:51:25.374Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-16T10:51:25.390Z"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-16T10:56:15.344Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-16T10:56:15.490Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-16T11:00:58.158Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-16T11:00:58.365Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-16T11:07:45.357Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-16T11:07:47.652Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-16T11:07:47.654Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-16T11:07:47.864Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-16T11:07:47.885Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-16T11:08:06.509Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-16T11:08:07.681Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-16T11:08:07.683Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-16T11:08:08.049Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-16T11:08:08.081Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-16T11:08:57.252Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-16T11:08:58.108Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-16T11:08:58.109Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-16T11:08:58.241Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-16T11:08:58.252Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-16T11:09:22.326Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-16T11:09:24.018Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-16T11:09:24.019Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-16T11:09:24.200Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-16T11:09:24.213Z"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-16T11:09:30.134Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-16T11:09:30.233Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:23:40.455Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:23:42.279Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:23:42.280Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:23:42.371Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:23:42.378Z"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-17T06:24:36.086Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-17T06:24:36.178Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:29:28.492Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:29:29.014Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:29:29.015Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:29:29.108Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:29:29.115Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:29:34.298Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:29:34.672Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:29:34.673Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:29:34.747Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:29:34.759Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:29:40.571Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:29:40.972Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:29:40.973Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:29:41.042Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:29:41.047Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:29:53.274Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:29:53.797Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:29:53.798Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:29:53.880Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:29:53.890Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:30:05.106Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:30:05.551Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:30:05.551Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:30:05.643Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:30:05.660Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:30:32.413Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:30:32.768Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:30:32.770Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:30:32.835Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:30:32.840Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:30:39.067Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:30:39.373Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:30:39.374Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:30:39.461Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:30:39.470Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:31:17.445Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:31:17.859Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:31:17.861Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:31:18.027Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:31:18.036Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:31:40.897Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:31:41.361Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:31:41.362Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:31:41.422Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:31:41.427Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:31:49.651Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:31:50.151Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:31:50.153Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:31:50.246Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:31:50.254Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:31:57.207Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:31:57.697Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:31:57.698Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:31:57.785Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:31:57.801Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:32:04.889Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:32:05.187Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:32:05.187Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:32:05.250Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:32:05.255Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:32:12.345Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:32:12.652Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:32:12.653Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:32:12.707Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:32:12.712Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:32:27.016Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:32:27.844Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:32:27.845Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:32:27.942Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:32:27.948Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:32:43.880Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:32:44.274Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:32:44.274Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:32:44.347Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:32:44.353Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:32:51.216Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:32:51.663Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:32:51.664Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:32:51.733Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:32:51.740Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:33:03.304Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:33:03.685Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:33:03.686Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:33:03.794Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:33:03.804Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:33:21.335Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:33:21.743Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:33:21.744Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:33:21.798Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:33:21.803Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:33:27.796Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:33:28.094Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:33:28.094Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:33:28.152Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:33:28.157Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:33:39.237Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:33:39.740Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:33:39.741Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:33:39.838Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:33:39.846Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:33:48.930Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:33:49.230Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:33:49.231Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:33:49.286Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:33:49.291Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:34:04.379Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:34:04.669Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:34:04.670Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:34:04.730Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:34:04.735Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:34:11.350Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:34:11.918Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:34:11.919Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:34:11.975Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:34:11.980Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:34:17.104Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:34:17.442Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:34:17.443Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:34:17.507Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:34:17.512Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:34:23.457Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:34:23.878Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:34:23.879Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:34:23.983Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:34:23.990Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:34:30.700Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:34:31.100Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:34:31.100Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:34:31.172Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:34:31.180Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:34:42.504Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:34:42.808Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:34:42.808Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:34:42.875Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:34:42.880Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:34:46.401Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:34:46.764Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:34:46.765Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:34:46.851Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:34:46.857Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:34:53.868Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:34:54.195Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:34:54.195Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:34:54.280Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:34:54.286Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:34:57.771Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:34:58.463Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:34:58.465Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:34:58.585Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:34:58.595Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:35:08.606Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:35:09.222Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:35:09.223Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:35:09.320Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:35:09.328Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:35:17.072Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:35:17.532Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:35:17.533Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:35:17.617Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:35:17.623Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:35:29.077Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:35:29.690Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:35:29.691Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:35:29.792Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:35:29.799Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:35:39.123Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:35:39.664Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:35:39.665Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:35:39.748Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:35:39.755Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:35:55.501Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:35:56.127Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:35:56.128Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:35:56.248Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:35:56.277Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:36:10.212Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:36:10.709Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:36:10.709Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:36:10.813Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:36:10.819Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:36:17.661Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:36:18.090Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:36:18.091Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:36:18.165Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:36:18.172Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:36:31.087Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:36:31.385Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:36:31.385Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:36:31.445Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:36:31.451Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:36:40.806Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:36:41.129Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:36:41.130Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:36:41.186Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:36:41.190Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:36:46.923Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:36:47.459Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:36:47.460Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:36:47.549Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:36:47.556Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:36:54.544Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:36:54.869Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:36:54.870Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:36:54.951Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:36:54.959Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:36:57.870Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:36:58.182Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:36:58.183Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:36:58.247Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:36:58.253Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:37:19.645Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:37:19.958Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:37:19.959Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:37:20.048Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:37:20.056Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:37:35.391Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:37:35.779Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:37:35.779Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:37:35.861Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:37:35.869Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:37:47.255Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:37:47.867Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:37:47.868Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:37:47.963Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:37:47.969Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:38:50.663Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:38:51.054Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:38:51.055Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:38:51.122Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:38:51.128Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:39:07.204Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:39:07.497Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:39:07.498Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:39:07.564Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:39:07.572Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:39:13.759Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:39:14.116Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:39:14.116Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:39:14.187Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:39:14.193Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:39:18.727Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:39:19.143Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:39:19.144Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:39:19.223Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:39:19.230Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:39:30.743Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:39:31.399Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:39:31.404Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:39:31.546Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:39:31.556Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:39:36.623Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:39:37.141Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:39:37.143Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:39:37.235Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:39:37.244Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:39:57.881Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:39:58.166Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:39:58.166Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:39:58.222Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:39:58.228Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:40:04.803Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:40:05.090Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:40:05.091Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:40:05.145Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:40:05.149Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:40:10.996Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:40:11.431Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:40:11.432Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:40:11.517Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:40:11.524Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:40:23.175Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:40:23.598Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:40:23.599Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:40:23.682Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:40:23.689Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:50:06.238Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:50:06.797Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:50:06.798Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:50:06.877Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:50:06.883Z"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-17T06:50:26.791Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-17T06:50:26.890Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-17T06:54:57.457Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-17T06:54:57.575Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-17T06:55:22.033Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-17T06:55:22.079Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:56:32.644Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:56:33.660Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:56:33.663Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:56:33.898Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:56:33.915Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T06:56:43.716Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T06:56:44.853Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T06:56:44.856Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T06:56:45.050Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T06:56:45.059Z"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-17T06:57:14.207Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-17T06:57:14.361Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-17T07:02:06.647Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: rebels","teamId":"689dad93eca100d53c0fa975","timestamp":"2025-08-17T07:02:06.744Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-17T07:08:32.623Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-17T07:08:32.734Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T07:10:13.056Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T07:10:14.941Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T07:10:14.943Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T07:10:15.215Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T07:10:15.235Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T07:11:10.098Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T07:11:10.820Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T07:11:10.821Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T07:11:10.948Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T07:11:10.962Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T07:11:17.647Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T07:11:18.470Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T07:11:18.472Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T07:11:18.584Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T07:11:18.593Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T07:11:32.787Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T07:11:33.695Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T07:11:33.696Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T07:11:33.845Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T07:11:33.855Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T07:14:22.532Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T07:14:23.518Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T07:14:23.520Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T07:14:23.642Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T07:14:23.652Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-17T07:14:37.088Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-17T07:14:37.893Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-17T07:14:37.894Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-17T07:14:38.031Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-17T07:14:38.044Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-18T03:36:52.731Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-18T03:36:53.631Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-18T03:36:53.633Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-18T03:36:53.727Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-18T03:36:53.739Z"}
+{"level":"warn","message":"⚠️ Received SIGINT","timestamp":"2025-08-18T03:39:53.557Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-18T03:40:04.031Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-18T03:40:04.572Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-18T03:40:04.573Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-18T03:40:04.651Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-18T03:40:04.656Z"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-18T03:40:39.649Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-18T03:40:39.720Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-18T04:13:18.676Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-18T04:13:18.730Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-18T04:14:12.515Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-08-18T04:14:12.623Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-18T09:00:21.314Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-18T09:00:21.775Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-18T09:00:21.776Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-18T09:00:21.828Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-18T09:00:21.832Z"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-18T09:01:00.500Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-18T09:01:00.558Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-18T10:10:24.015Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-18T10:10:24.399Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-18T10:10:24.403Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-18T10:10:24.448Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-18T10:10:24.452Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-20T08:50:07.311Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-20T08:50:08.360Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-20T08:50:08.361Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-20T08:50:08.444Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-20T08:50:08.452Z"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-20T08:51:20.012Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-20T08:51:20.079Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-25T10:18:59.722Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-25T10:19:04.237Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-25T10:19:04.238Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-25T10:19:04.437Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-25T10:19:04.463Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-08-25T10:20:23.866Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-08-25T10:20:24.768Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-08-25T10:20:24.770Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-08-25T10:20:24.915Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-08-25T10:20:24.932Z"}
+{"level":"info","message":"Team created: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-08-25T10:21:31.826Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-08-25T10:21:36.289Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-08-25T10:21:36.342Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-08-25T10:22:21.931Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-08-25T10:22:21.978Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-25T10:23:06.487Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-08-25T10:23:06.531Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-09-02T06:54:51.493Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-09-02T06:55:03.222Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-09-02T06:55:03.229Z"}
+{"cause":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"127.0.0.1:27017":{"$clusterTime":null,"address":"127.0.0.1:27017","arbiters":[],"electionId":null,"error":null,"hosts":[],"iscryptd":false,"lastUpdateTime":92541513,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":null,"stale":false,"type":"Unknown"},"errorLabelSet":{},"level":"error","message":"Server selection timed out after 5000 ms","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"127.0.0.1:27017":{"$clusterTime":null,"address":"127.0.0.1:27017","arbiters":[],"electionId":null,"error":null,"hosts":[],"iscryptd":false,"lastUpdateTime":92541513,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":null,"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: Server selection timed out after 5000 ms\n    at _handleConnectionErrors (C:\\Users\\eagle\\AllCodes\\gc\\backend\\node_modules\\mongoose\\lib\\connection.js:1165:11)\n    at NativeConnection.openUri (C:\\Users\\eagle\\AllCodes\\gc\\backend\\node_modules\\mongoose\\lib\\connection.js:1096:11)\n    at async connectWithRetry (C:\\Users\\eagle\\AllCodes\\gc\\backend\\server.js:84:5)","timestamp":"2025-09-02T06:55:03.547Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-09-02T06:55:03.624Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-09-02T06:55:08.648Z"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-09-02T06:59:10.378Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: bulls","teamId":"689d57568beb37edf3c29b67","timestamp":"2025-09-02T06:59:10.436Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-09-02T06:59:55.089Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-09-02T06:59:55.143Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-09-02T06:59:58.329Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-09-02T06:59:58.377Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-09-03T05:25:12.619Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-09-03T05:25:23.626Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-09-03T05:25:23.629Z"}
+{"cause":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"127.0.0.1:27017":{"$clusterTime":null,"address":"127.0.0.1:27017","arbiters":[],"electionId":null,"error":null,"hosts":[],"iscryptd":false,"lastUpdateTime":173567985,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":null,"stale":false,"type":"Unknown"},"errorLabelSet":{},"level":"error","message":"Server selection timed out after 5000 ms","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"127.0.0.1:27017":{"$clusterTime":null,"address":"127.0.0.1:27017","arbiters":[],"electionId":null,"error":null,"hosts":[],"iscryptd":false,"lastUpdateTime":173567985,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":null,"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: Server selection timed out after 5000 ms\n    at _handleConnectionErrors (C:\\Users\\eagle\\AllCodes\\gc\\backend\\node_modules\\mongoose\\lib\\connection.js:1165:11)\n    at NativeConnection.openUri (C:\\Users\\eagle\\AllCodes\\gc\\backend\\node_modules\\mongoose\\lib\\connection.js:1096:11)\n    at async connectWithRetry (C:\\Users\\eagle\\AllCodes\\gc\\backend\\server.js:84:5)","timestamp":"2025-09-03T05:25:23.885Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-09-03T05:25:23.938Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-09-03T05:25:28.947Z"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-09-03T05:25:50.957Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: Rocks","teamId":"689daaf0eca100d53c0fa960","timestamp":"2025-09-03T05:25:51.011Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-09-09T04:14:38.022Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-09-09T04:14:49.056Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-09-09T04:14:49.058Z"}
+{"cause":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"127.0.0.1:27017":{"$clusterTime":null,"address":"127.0.0.1:27017","arbiters":[],"electionId":null,"error":null,"hosts":[],"iscryptd":false,"lastUpdateTime":337945850,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":null,"stale":false,"type":"Unknown"},"errorLabelSet":{},"level":"error","message":"Server selection timed out after 5000 ms","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"127.0.0.1:27017":{"$clusterTime":null,"address":"127.0.0.1:27017","arbiters":[],"electionId":null,"error":null,"hosts":[],"iscryptd":false,"lastUpdateTime":337945850,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":null,"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: Server selection timed out after 5000 ms\n    at _handleConnectionErrors (C:\\Users\\eagle\\AllCodes\\gc\\backend\\node_modules\\mongoose\\lib\\connection.js:1165:11)\n    at NativeConnection.openUri (C:\\Users\\eagle\\AllCodes\\gc\\backend\\node_modules\\mongoose\\lib\\connection.js:1096:11)\n    at async connectWithRetry (C:\\Users\\eagle\\AllCodes\\gc\\backend\\server.js:84:5)","timestamp":"2025-09-09T04:14:49.296Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-09-09T04:14:49.374Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-09-09T04:14:54.372Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-09-09T04:15:38.859Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-09-09T04:15:39.367Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-09-09T04:15:39.368Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-09-09T04:15:39.433Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-09-09T04:15:39.438Z"}
+{"level":"warn","message":"⚠️ Received SIGINT","timestamp":"2025-09-09T04:16:08.113Z"}
+{"level":"info","message":"✅ WebSocket and streaming service initialized","timestamp":"2025-09-09T04:16:13.427Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-09-09T04:16:13.990Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-09-09T04:16:13.990Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-09-09T04:16:14.052Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-09-09T04:16:14.059Z"}
+{"level":"error","message":"❌ Failed to initialize streaming service: io is not defined","stack":"ReferenceError: io is not defined\n    at Object.<anonymous> (C:\\Users\\eagle\\AllCodes\\gc\\backend\\server.js:75:39)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n    at Object..js (node:internal/modules/cjs/loader:1895:10)\n    at Module.load (node:internal/modules/cjs/loader:1465:32)\n    at Function._load (node:internal/modules/cjs/loader:1282:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n    at node:internal/main/run_main_module:36:49","timestamp":"2025-09-09T04:21:06.516Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-09-09T04:21:07.052Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-09-09T04:21:07.053Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-09-09T04:21:07.168Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-09-09T04:21:07.177Z"}
+{"level":"info","message":"Team fetched: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-09-09T04:25:20.315Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-09-09T04:25:20.379Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-09-09T04:25:23.406Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-09-09T04:25:23.437Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-09-09T04:25:56.055Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-09-09T04:25:56.083Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"error","message":"❌ Failed to initialize streaming service: io is not defined","stack":"ReferenceError: io is not defined\n    at Object.<anonymous> (C:\\Users\\eagle\\AllCodes\\gc\\backend\\server.js:75:39)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n    at Object..js (node:internal/modules/cjs/loader:1895:10)\n    at Module.load (node:internal/modules/cjs/loader:1465:32)\n    at Function._load (node:internal/modules/cjs/loader:1282:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n    at node:internal/main/run_main_module:36:49","timestamp":"2025-09-09T04:26:21.678Z"}
+{"level":"info","message":"🚀 Server running in development mode on port 5000","timestamp":"2025-09-09T04:26:22.193Z"}
+{"level":"info","message":"🔌 WebSocket server running with in-memory adapter","timestamp":"2025-09-09T04:26:22.193Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-09-09T04:26:22.266Z"}
+{"level":"info","message":"✅ mediasoup worker and router initialized","timestamp":"2025-09-09T04:26:22.274Z"}
+{"level":"info","message":"Team fetched: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-09-09T04:28:05.963Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-09-09T04:28:05.991Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team created: jjj","teamId":"68bfadc99a2fd05a1f594581","timestamp":"2025-09-09T04:32:09.014Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-09-09T04:32:14.452Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-09-09T04:32:14.476Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-09-09T04:37:28.714Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-09-09T04:37:28.751Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-09-09T04:37:32.820Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team fetched: jjkki","teamId":"68ac392b392a938a3ef8c6f0","timestamp":"2025-09-09T04:37:32.857Z","userId":"689c779e61eef27bed4b910c"}
+{"level":"info","message":"Team created: sandbjcb","teamId":"68bfafb34507cef1f956fbeb","timestamp":"2025-09-09T04:40:20.091Z","userId":"68bfaf6d4507cef1f956fbdc"}
+{"level":"info","message":"Team fetched: sandbjcb","teamId":"68bfafb34507cef1f956fbeb","timestamp":"2025-09-09T04:40:22.042Z","userId":"68bfaf6d4507cef1f956fbdc"}
+{"level":"info","message":"Team fetched: sandbjcb","teamId":"68bfafb34507cef1f956fbeb","timestamp":"2025-09-09T04:40:22.233Z","userId":"68bfaf6d4507cef1f956fbdc"}
