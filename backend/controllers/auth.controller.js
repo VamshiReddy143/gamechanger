@@ -102,8 +102,6 @@ const generateOTP = () => {
 // Cookie options for secure storage
 const getCookieOptions = () => ({
   httpOnly: true,
-  secure: process.env.NODE_ENV === 'production',
-  sameSite: process.env.NODE_ENV === 'production' ? 'strict' : 'lax',
   maxAge: 15 * 60 * 1000,
   path: '/'
 });
