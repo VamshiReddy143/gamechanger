@@ -8,24 +8,39 @@ const STREAMS_API_URL = `${import.meta.env.VITE_API_BASE_URL}/streams`;
 
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_BASE_URL || '',
-  withCredentials: true,
+ withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
-    'Accept': 'application/json',
-  },
-  xsrfCookieName: 'accessToken',
-  xsrfHeaderName: 'X-CSRF-Token',
+  }
 });
 
 api.interceptors.request.use(
   (config) => {
+    // Check if we have a token in localStorage (for Bearer auth)
     const token = localStorage.getItem('token');
     if (token) {
       config.headers.Authorization = `Bearer ${token}`;
     }
+    // For cookie-based auth, the cookie is automatically sent with credentials: true
     return config;
   },
   (error) => Promise.reject(error)
+);
+
+api.interceptors.response.use(
+  (response) => response,
+  async (error) => {
+    if (error.response?.status === 401) {
+      // Clear all auth data
+      localStorage.removeItem('user');
+      localStorage.removeItem('token');
+      document.cookie = 'token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+      
+      // Redirect to login
+      window.location.href = "/login";
+    }
+    return Promise.reject(error);
+  }
 );
 
 // Team operations

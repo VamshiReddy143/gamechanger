@@ -63,19 +63,6 @@ const otpSchema = Joi.object({
     otp: Joi.string().length(4).required()
 });
 
-// Single token generator function
-const generateToken = (userId, role) => {
-    return jwt.sign({ id: userId, role }, process.env.JWT_SECRET, {
-        expiresIn: process.env.JWT_EXPIRES_IN || '7d'
-    });
-};
-
-const generateResetToken = (userId) => {
-    return jwt.sign({ id: userId }, process.env.JWT_SECRET, {
-        expiresIn: '1h'
-    });
-};
-
 // Nodemailer transporter configuration
 const transporter = nodemailer.createTransport({
     service: process.env.EMAIL_SERVICE,
@@ -186,7 +173,12 @@ const VERIFY_OTP = async (req, res, next) => {
         user.isVerified = true;
         await user.save();
 
-        const token = generateToken(user._id, user.role);
+        // Generate token directly using jwt.sign
+        const token = jwt.sign(
+            { id: user._id, role: user.role }, 
+            process.env.JWT_SECRET, 
+            { expiresIn: process.env.JWT_EXPIRES_IN || '7d' }
+        );
 
         res.cookie('token', token, cookieOptions);
 
@@ -199,7 +191,7 @@ const VERIFY_OTP = async (req, res, next) => {
                 email: user.email,
                 role: user.role
             },
-            token: token // Also send token in response for client storage
+            token: token
         });
 
     } catch (err) {
@@ -287,7 +279,12 @@ const LOGIN = async (req, res, next) => {
             });
         }
 
-        const token = generateToken(user._id, user.role);
+        // Generate token directly using jwt.sign
+        const token = jwt.sign(
+            { id: user._id, role: user.role }, 
+            process.env.JWT_SECRET, 
+            { expiresIn: process.env.JWT_EXPIRES_IN || '7d' }
+        );
 
         res.cookie('token', token, cookieOptions);
 
@@ -385,7 +382,13 @@ const FORGOT_PASSWORD = async (req, res, next) => {
             });
         }
 
-        const resetToken = generateResetToken(user._id);
+        // Generate reset token directly using jwt.sign
+        const resetToken = jwt.sign(
+            { id: user._id }, 
+            process.env.JWT_SECRET, 
+            { expiresIn: '1h' }
+        );
+
         const resetLink = `${process.env.FRONTEND_URL}/reset-password/${resetToken}`;
 
         const mailOptions = {
@@ -456,8 +459,6 @@ const RESET_PASSWORD = async (req, res, next) => {
     }
 };
 
-// Remove REFRESH_TOKEN function entirely
-
 module.exports = { 
     REGISTER, 
     LOGIN, 
@@ -467,5 +468,4 @@ module.exports = {
     RESET_PASSWORD, 
     VERIFY_OTP, 
     RESEND_OTP 
-    // REMOVED: REFRESH_TOKEN
 };

@@ -12,19 +12,37 @@ const api = axios.create({
   }
 });
 
-// Remove the refresh token interceptor since we don't need it anymore
+
+api.interceptors.request.use(
+  (config) => {
+    // Check if we have a token in localStorage (for Bearer auth)
+    const token = localStorage.getItem('token');
+    if (token) {
+      config.headers.Authorization = `Bearer ${token}`;
+    }
+    // For cookie-based auth, the cookie is automatically sent with credentials: true
+    return config;
+  },
+  (error) => Promise.reject(error)
+);
+
 api.interceptors.response.use(
   (response) => response,
   async (error) => {
     if (error.response?.status === 401) {
-      // Clear token and redirect to login
+      // Clear all auth data
+      localStorage.removeItem('user');
+      localStorage.removeItem('token');
       document.cookie = 'token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
-      localStorage.removeItem("user");
+      
+      // Redirect to login
       window.location.href = "/login";
     }
     return Promise.reject(error);
   }
 );
+
+
 
 const Login = () => {
   const [formData, setFormData] = useState({
@@ -38,27 +56,43 @@ const Login = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-const handleSubmit = async (e) => {
-  e.preventDefault();
-  setIsLoading(true);
-  
-  try {
-    // Make login request
-    await api.post("/auth/login", formData);
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsLoading(true);
     
-    // Verify login by fetching user data
-    const userResponse = await api.get("/auth/me");
-    console.log('Login successful, user:', userResponse.data.user);
+    try {
+     const response = await api.post("/auth/login", formData);
+    
+    // Store user data in localStorage
+    localStorage.setItem("user", JSON.stringify(response.data.user));
+    
+    // If backend also returns token in response (not just cookie), store it
+    if (response.data.token) {
+      localStorage.setItem("token", response.data.token);
+    }
     
     toast.success("Login successful");
     navigate("/");
-  } catch (error) {
-    console.error('Login error:', error.response?.data || error.message);
-    toast.error(error.response?.data?.message || "Login failed");
-  } finally {
-    setIsLoading(false);
-  }
-};
+    } catch (error) {
+      console.error('Login error:', error.response?.data || error.message);
+      
+      // Handle specific error cases
+      if (error.response?.status === 403 && error.response?.data?.message === "Please verify your email first") {
+        // Redirect to OTP verification page or show message
+        toast.error("Please verify your email first. Check your inbox for the OTP.");
+        navigate("/verify-otp", { state: { email: formData.email } });
+      } else if (error.response?.status === 401) {
+        toast.error("Invalid email or password");
+      } else if (error.response?.status === 404) {
+        toast.error("User not found");
+      } else {
+        toast.error(error.response?.data?.message || "Login failed");
+      }
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   return (
     <div className="min-h-screen bg-black bg-cover bg-center relative">
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 max-w-md w-full">

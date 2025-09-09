@@ -1,12 +1,8 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import { GoogleMap, LoadScript, Marker, StandaloneSearchBox } from "@react-google-maps/api";
 import { FiX } from "react-icons/fi";
-
-const googleMapsApiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY || '';
-const mapContainerStyle = { width: '100%', height: '300px' };
 
 const AddEventModal = ({ isOpen, onClose, onSubmit, event }) => {
   const [eventType, setEventType] = useState('game');
@@ -18,10 +14,7 @@ const AddEventModal = ({ isOpen, onClose, onSubmit, event }) => {
   const [arriveTime, setArriveTime] = useState(new Date());
   const [repeats, setRepeats] = useState('Never');
   const [location, setLocation] = useState('');
-  const [center, setCenter] = useState({ lat: 37.7749, lng: -122.4194 });
-  const [markerPosition, setMarkerPosition] = useState(null);
   const [errors, setErrors] = useState({});
-  const searchBoxRef = useRef(null);
 
   useEffect(() => {
     if (event) {
@@ -34,10 +27,6 @@ const AddEventModal = ({ isOpen, onClose, onSubmit, event }) => {
       setArriveTime(event.arriveTime ? new Date(event.arriveTime) : new Date());
       setRepeats(event.repeats || 'Never');
       setLocation(event.location || '');
-      if (event.locationCoords) {
-        setCenter(event.locationCoords);
-        setMarkerPosition(event.locationCoords);
-      }
     } else {
       resetForm();
     }
@@ -53,29 +42,14 @@ const AddEventModal = ({ isOpen, onClose, onSubmit, event }) => {
     setArriveTime(new Date());
     setRepeats('Never');
     setLocation('');
-    setCenter({ lat: 37.7749, lng: -122.4194 });
-    setMarkerPosition(null);
     setErrors({});
-  };
-
-  const handlePlacesChanged = () => {
-    if (searchBoxRef.current) {
-      const places = searchBoxRef.current.getPlaces();
-      if (places && places.length > 0) {
-        const place = places[0];
-        const newCenter = place.geometry.location.toJSON();
-        setCenter(newCenter);
-        setMarkerPosition(newCenter);
-        setLocation(place.formatted_address);
-      }
-    }
   };
 
   const validateForm = () => {
     const newErrors = {};
     if (!eventType) newErrors.eventType = 'Event type is required';
     if (eventType === 'other' && !title.trim()) newErrors.title = 'Title is required';
-    if (!location) newErrors.location = 'Location is required';
+    if (!location.trim()) newErrors.location = 'Location is required';
     
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
@@ -94,8 +68,7 @@ const AddEventModal = ({ isOpen, onClose, onSubmit, event }) => {
       durationMinutes,
       arriveTime,
       repeats,
-      location,
-      locationCoords: markerPosition
+      location
     };
 
     await onSubmit(eventData);
@@ -239,7 +212,9 @@ const AddEventModal = ({ isOpen, onClose, onSubmit, event }) => {
                   type="text" 
                   value={title} 
                   onChange={(e) => setTitle(e.target.value)} 
-                  className="w-full bg-white/90 p-2 rounded text-white border border-white/20" 
+                  className={`w-full bg-white/90 p-2 rounded text-black border ${
+                    errors.title ? 'border-red-500' : 'border-white/10'
+                  }`}
                   required 
                 />
                 {errors.title && (
@@ -250,35 +225,19 @@ const AddEventModal = ({ isOpen, onClose, onSubmit, event }) => {
 
             <div>
               <label className="block mb-2 font-medium">Location</label>
+              <input 
+                type="text" 
+                value={location} 
+                onChange={(e) => setLocation(e.target.value)} 
+                placeholder="Enter location (e.g., Main Stadium, Field 2, etc.)"
+                className={`w-full bg-white/90 p-2 rounded text-black border ${
+                  errors.location ? 'border-red-500' : 'border-white/10'
+                }`}
+                required
+              />
               {errors.location && (
-                <p className="text-red-400 text-sm mb-1">{errors.location}</p>
+                <p className="text-red-400 text-sm mt-1">{errors.location}</p>
               )}
-              <LoadScript googleMapsApiKey={googleMapsApiKey} libraries={["places"]}>
-                <GoogleMap 
-                  mapContainerStyle={mapContainerStyle} 
-                  center={center} 
-                  zoom={15}
-                  options={{
-                    streetViewControl: false,
-                    mapTypeControl: false,
-                    fullscreenControl: false
-                  }}
-                >
-                  <StandaloneSearchBox 
-                    onLoad={(ref) => (searchBoxRef.current = ref)} 
-                    onPlacesChanged={handlePlacesChanged}
-                  >
-                    <input 
-                      type="text" 
-                      value={location} 
-                      onChange={(e) => setLocation(e.target.value)} 
-                      placeholder="Search location" 
-                      className="absolute top-4 left-1/2 -translate-x-1/2 w-4/5 bg-white p-2 rounded shadow text-black z-10"
-                    />
-                  </StandaloneSearchBox>
-                  {markerPosition && <Marker position={markerPosition} />}
-                </GoogleMap>
-              </LoadScript>
             </div>
           </div>
 

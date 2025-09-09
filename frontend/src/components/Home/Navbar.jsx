@@ -128,9 +128,11 @@ const Navbar = () => {
 
                     {/* Auth Buttons */}
                     <div className="flex items-center gap-4">
+                       <Link to={"/login"}>
                         <button className="bg-transparent border border-white text-white hover:bg-white/10 py-2 px-6 rounded-full font-medium transition-colors">
                             Sign In
                         </button>
+                       </Link>
                         <button className="bg-violet-600 hover:bg-violet-700 text-white py-2 px-6 rounded-full font-medium transition-colors">
                             Join Us
                         </button>
