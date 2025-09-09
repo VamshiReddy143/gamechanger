@@ -34,7 +34,6 @@ api.interceptors.response.use(
       try {
         // Attempt to refresh tokens (cookie will be set automatically)
         await api.post("/auth/refresh-token");
-        
         // Retry original request - cookies will be sent automatically
         return api(originalRequest);
       } catch (refreshError) {

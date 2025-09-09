@@ -102,15 +102,12 @@ const generateOTP = () => {
 // Cookie options for secure storage
 const getCookieOptions = () => ({
   httpOnly: true,
-  secure: false, // false in development, true in production
-  sameSite: 'lax', // 'lax' for local development
-  maxAge: 15 * 60 * 1000, // 15 minutes
-  domain: 'localhost', // Explicit domain
-  path: '/',
-  // Add these for cross-origin support
-  credentials: true,
-  allowedHeaders: ['Content-Type', 'Authorization', 'Set-Cookie']
+  secure: process.env.NODE_ENV === 'production',
+  sameSite: process.env.NODE_ENV === 'production' ? 'strict' : 'lax',
+  maxAge: 15 * 60 * 1000,
+  path: '/'
 });
+
 
 
 const accessTokenCookieOptions = getCookieOptions();
