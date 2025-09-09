@@ -37,7 +37,7 @@ const OTPVerification = () => {
     const otpCode = otp.join("");
     
     try {
-      const response = await axios.post("http://localhost:5000/api/auth/verify-otp", {
+      const response = await axios.post("https://gamechanger-2.onrender.com/api/auth/verify-otp", {
         email,
         otp: otpCode
       });
@@ -54,7 +54,7 @@ const OTPVerification = () => {
   const handleResend = async () => {
     setIsLoading(true);
     try {
-      const response = await axios.post("http://localhost:5000/api/auth/resend-otp", { email });
+      const response = await axios.post("https://gamechanger-2.onrender.com/api/auth/resend-otp", { email });
       toast.success(response.data.message);
     } catch (error) {
       const errorMessage = error.response?.data?.message || "Failed to resend OTP";

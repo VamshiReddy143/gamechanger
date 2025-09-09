@@ -22,7 +22,7 @@ const Register = () => {
     e.preventDefault();
     setIsLoading(true);
     try {
-      const response = await axios.post("http://localhost:5000/api/auth/register", formData);
+      const response = await axios.post("https://gamechanger-2.onrender.com/api/auth/register", formData);
       toast.success(response.data.message);
       navigate("/verify-otp", { state: { email: formData.email } });
     } catch (error) {

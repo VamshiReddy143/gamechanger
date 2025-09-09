@@ -19,7 +19,7 @@ const ResetPassword = () => {
     e.preventDefault();
     setIsLoading(true);
     try {
-      const response = await axios.post(`http://localhost:5000/api/auth/reset-password/${token}`, formData);
+      const response = await axios.post(`https://gamechanger-2.onrender.com/api/auth/reset-password/${token}`, formData);
       toast.success(response.data.message);
       navigate("/login");
     } catch (error) {
