@@ -100,9 +100,11 @@ const generateOTP = () => {
 };
 
 // Cookie options for secure storage
-const getCookieOptions = () => ({
+const getCookieOptions = (isRefresh = false) => ({
   httpOnly: true,
-  maxAge: 15 * 60 * 1000,
+  secure: process.env.NODE_ENV === 'production',
+  sameSite: process.env.NODE_ENV === 'production' ? 'strict' : 'lax',
+  maxAge: isRefresh ? 7 * 24 * 60 * 60 * 1000 : 15 * 60 * 1000,
   path: '/'
 });
 
@@ -315,8 +317,20 @@ const LOGIN = async (req, res, next) => {
         user.refreshToken = refreshToken;
         await user.save();
 
-        // Set only access token in HTTP-only cookie for better security
-        res.cookie('accessToken', accessToken, accessTokenCookieOptions);
+          res.cookie('accessToken', accessToken, {
+            httpOnly: true,
+            secure: process.env.NODE_ENV === 'production',
+            sameSite: process.env.NODE_ENV === 'production' ? 'strict' : 'lax',
+            maxAge: 15 * 60 * 1000
+        });
+
+
+          res.cookie('refreshToken', refreshToken, {
+            httpOnly: true,
+            secure: process.env.NODE_ENV === 'production',
+            sameSite: process.env.NODE_ENV === 'production' ? 'strict' : 'lax',
+            maxAge: 7 * 24 * 60 * 60 * 1000
+        });
 
         // Respond with user details (excluding sensitive data)
         res.status(200).json({
@@ -386,47 +400,20 @@ const LOGOUT = async (req, res, next) => {
 
 const REFRESH_TOKEN = async (req, res, next) => {
     try {
-        // Extract access token from cookie or Authorization header
-        const token = req.cookies.accessToken || (req.headers.authorization && req.headers.authorization.startsWith("Bearer ") ? req.headers.authorization.split(" ")[1] : null);
+        // Get refresh token from cookie
+        const refreshToken = req.cookies.refreshToken;
         
-        if (!token) {
+        if (!refreshToken) {
             return res.status(401).json({
                 success: false,
-                message: "No access token provided"
-            });
-        }
-
-        // Decode the access token (even if expired) to get user ID
-        let decoded;
-        try {
-            decoded = jwt.verify(token, process.env.JWT_SECRET, { ignoreExpiration: true });
-        } catch (err) {
-            return res.status(401).json({
-                success: false,
-                message: "Invalid access token"
-            });
-        }
-
-        // Fetch user from database
-        const user = await userModel.findById(decoded.id);
-        if (!user) {
-            return res.status(404).json({
-                success: false,
-                message: "User not found"
-            });
-        }
-
-        // Check if user has a valid refresh token in the database
-        if (!user.refreshToken) {
-            return res.status(401).json({
-                success: false,
-                message: "No valid refresh token found"
+                message: "No refresh token provided"
             });
         }
 
         // Verify the refresh token
+        let decoded;
         try {
-            jwt.verify(user.refreshToken, process.env.REFRESH_TOKEN_SECRET);
+            decoded = jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET);
         } catch (err) {
             if (err.name === "TokenExpiredError") {
                 return res.status(401).json({
@@ -440,37 +427,49 @@ const REFRESH_TOKEN = async (req, res, next) => {
             });
         }
 
-        // Generate new access token
-        const newAccessToken = jwt.sign(
-            { id: user._id, role: user.role },
-            process.env.JWT_SECRET,
-            { expiresIn: process.env.ACCESS_TOKEN_EXPIRES_IN || '15m' }
-        );
+        // Fetch user from database
+        const user = await userModel.findById(decoded.id);
+        if (!user) {
+            return res.status(404).json({
+                success: false,
+                message: "User not found"
+            });
+        }
 
-        // Optionally rotate refresh token for added security
-        const newRefreshToken = jwt.sign(
-            { id: user._id },
-            process.env.REFRESH_TOKEN_SECRET,
-            { expiresIn: process.env.REFRESH_TOKEN_EXPIRES_IN || '7d' }
-        );
+        // Verify the stored refresh token matches
+        if (user.refreshToken !== refreshToken) {
+            return res.status(401).json({
+                success: false,
+                message: "Refresh token mismatch"
+            });
+        }
+
+        // Generate new tokens
+        const newAccessToken = generateAccessToken(user._id, user.role);
+        const newRefreshToken = generateRefreshToken(user._id);
 
         // Update refresh token in database
         user.refreshToken = newRefreshToken;
         await user.save();
 
-        // Set new access token in HTTP-only cookie
-        const accessTokenCookieOptions = {
+        // Set cookies
+        res.cookie('accessToken', newAccessToken, {
             httpOnly: true,
             secure: process.env.NODE_ENV === 'production',
             sameSite: process.env.NODE_ENV === 'production' ? 'strict' : 'lax',
             maxAge: 15 * 60 * 1000 // 15 minutes
-        };
-        res.cookie('accessToken', newAccessToken, accessTokenCookieOptions);
+        });
 
-        // Respond with success
+        res.cookie('refreshToken', newRefreshToken, {
+            httpOnly: true,
+            secure: process.env.NODE_ENV === 'production',
+            sameSite: process.env.NODE_ENV === 'production' ? 'strict' : 'lax',
+            maxAge: 7 * 24 * 60 * 60 * 1000 // 7 days
+        });
+
         res.status(200).json({
             success: true,
-            message: "Access token refreshed successfully"
+            message: "Tokens refreshed successfully"
         });
 
     } catch (err) {

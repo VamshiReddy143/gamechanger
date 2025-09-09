@@ -32,9 +32,10 @@ connectDB();
 // ====== Middleware ======
 app.use(helmet());
 app.use(cors({
-  origin:'https://gamechanger-flame.vercel.app',
+  origin: 'https://gamechanger-flame.vercel.app',
   credentials: true,
-  
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-CSRF-Token']
 }));
 app.use(morgan('dev'));
 app.use(compression());

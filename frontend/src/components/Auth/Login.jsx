@@ -9,36 +9,27 @@ const api = axios.create({
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
-    'Accept': 'application/json'
-  },
-  xsrfCookieName: 'accessToken', // Match your cookie name
-  xsrfHeaderName: 'X-CSRF-Token' // Optional for CSRF protection
+  }
 });
 
-// Add request interceptor to debug cookies
-api.interceptors.request.use(config => {
-  console.log('Request will send cookies:', document.cookie);
-  return config;
-});
-
-// Axios interceptor to handle token refresh
+// Enhanced response interceptor
 api.interceptors.response.use(
   (response) => response,
   async (error) => {
     const originalRequest = error.config;
     
-    // Check for 401 and specific error message
     if (error.response?.status === 401 && !originalRequest._retry) {
       originalRequest._retry = true;
       
       try {
-        // Attempt to refresh tokens (cookie will be set automatically)
+        // Attempt to refresh tokens
         await api.post("/auth/refresh-token");
-        // Retry original request - cookies will be sent automatically
+        // Retry original request
         return api(originalRequest);
       } catch (refreshError) {
-        // Handle refresh failure
-        toast.error("Session expired - please log in again");
+        // Clear cookies and redirect on refresh failure
+        document.cookie = 'accessToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+        document.cookie = 'refreshToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
         localStorage.removeItem("user");
         window.location.href = "/login";
         return Promise.reject(refreshError);
